@@ -5,32 +5,46 @@
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f7f7f7;
+			background-color: #f9f9f9;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #fff;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+			padding: 20px;
 		}
 		h1 {
-			font-size: 32px;
+			font-size: 40px;
 			color: #333333;
-			margin-top: 40px;
-			margin-bottom: 20px;
+			margin: 0;
 			text-align: center;
 		}
 		p {
-			font-size: 18px;
+			font-size: 20px;
 			color: #333333;
-			margin-bottom: 20px;
+			margin: 40px 0;
 			text-align: center;
 		}
 		iframe {
 			display: block;
 			margin: 0 auto;
-			border: 1px solid #cccccc;
-			box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+			border: 2px solid #e5e5e5;
+			border-radius: 8px;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+			width: 100%;
+			max-width: 1200px;
+			height: 700px;
 		}
 	</style>
 </head>
 <body>
-	<h1>Anomaly Chart Provider Demo</h1>
-	<iframe src="sample_chart.html" width="1409" height="650" frameborder="0"></iframe>
+	<header>
+		<h1>Anomaly Chart Provider Demo</h1>
+	</header>
+	<main>
+		<p>Here is a sample chart:</p>
+		<iframe src="sample_chart.html" frameborder="0"></iframe>
+	</main>
 </body>
 </html>
-
